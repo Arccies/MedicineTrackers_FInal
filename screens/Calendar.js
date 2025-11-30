@@ -15,7 +15,7 @@ import { LinearGradient } from "expo-linear-gradient";
 
 export default function CalendarScreen({ navigation, route }) {
   const userId = route.params?.user?._id;
-  const API_BASE = "http://192.168.68.110:5000/api";
+  const API_BASE = "http://192.168.68.106:5000/api";
 
   const [items, setItems] = useState([]);
   const [markedDates, setMarkedDates] = useState({});
